@@ -1,14 +1,4 @@
-/*
-Theme Name: Mineral
-Theme URI: http://pexetothemes.com
-Author: Pexeto
-Author URI: http://pexetothemes.com/
-Description: Premium Responsive Wordpress Theme by Pexeto.
-Version: 1.1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags:light, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
-*/
+
 /*-----------------------------------------------------------------------------------
 1.CSS Reset
 2.Basic Typography
@@ -1250,11 +1240,7 @@ img.wp-smiley,
 #reply-title {
   margin-top: 20px;
 }
-#commentform label,
-.pexeto-contact-form label {
-  display: block;
-  line-height: 2.5em;
-}
+
 #full-width #commentform {
   width: 60%;
 }
@@ -1272,24 +1258,6 @@ img.wp-smiley,
   width: 100%;
   max-width: 100%;
   margin-bottom: 8px;
-}
-/*Contact Form*/
-.pexeto-contact-form .error-box,
-.pexeto-contact-form .info-box {
-  display: none;
-}
-.pexeto-contact-form input[type="text"],
-.pexeto-contact-form input[type="password"],
-.pexeto-contact-form textarea,
-.pexeto-contact-form input[type="search"] {
-  padding: 12px 0;
-  text-indent: 8px;
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 8px;
-}
-#content .pexeto-contact-form textarea {
-  min-height: 170px;
 }
 /*reCaptcha*/
 #recaptcha_image {
@@ -4897,19 +4865,6 @@ div.pp_default .pp_nav {
   border-right: 1px dotted #b3b3b1;
   height: 17px;
 }
-div.pp_default a.pp_arrow_previous {
-  background: url(images/prettyPhoto/pexeto/sprite.png) -33px -3px no-repeat;
-  height: 20px;
-  margin-top: 0;
-  width: 12px;
-}
-div.pp_default a.pp_arrow_next {
-  background: url(images/prettyPhoto/pexeto/sprite.png) no-repeat;
-  background-position: -88px -3px;
-  height: 20px;
-  margin-top: 0;
-  width: 12px;
-}
 div.pp_default .pp_nav .currentTextHolder {
   position: static;
   left: 0;
@@ -4920,54 +4875,8 @@ div.pp_default .pp_nav .currentTextHolder {
   font-style: normal;
   letter-spacing: 1px;
 }
-div.pp_default .pp_close {
-  background: url(images/prettyPhoto/pexeto/sprite.png) 0 -4px no-repeat;
-  cursor: pointer;
-  height: 17px;
-  width: 20px;
-  border-left: 1px dotted #b3b3b1;
-}
 div.pp_default .pp_overlay {
   opacity: 0.9 !important;
-}
-div.pp_default .pp_next {
-  background: url(images/prettyPhoto/pexeto/sprite_next.png) center right no-repeat;
-  cursor: pointer;
-  background-position: 97% 50%;
-}
-div.pp_default .pp_next:hover {
-  background: url(images/prettyPhoto/pexeto/sprite_next.png) center right no-repeat;
-  background-position: 97% 50%;
-}
-div.pp_default .pp_previous {
-  background: url(images/prettyPhoto/pexeto/sprite_prev.png) center left no-repeat;
-  cursor: pointer;
-  background-position: 3% 50%;
-}
-div.pp_default .pp_previous:hover {
-  background: url(images/prettyPhoto/pexeto/sprite_prev.png) center left no-repeat;
-  cursor: pointer;
-  background-position: 3% 50%;
-}
-div.pp_default .pp_expand {
-  background: url(images/prettyPhoto/pexeto/sprite.png) 0 -29px no-repeat;
-  cursor: pointer;
-  height: 28px;
-  width: 28px;
-}
-div.pp_default .pp_expand:hover {
-  background: url(images/prettyPhoto/pexeto/sprite.png) 0 -56px no-repeat;
-  cursor: pointer;
-}
-div.pp_default .pp_contract {
-  background: url(images/prettyPhoto/pexeto/sprite.png) 0 -84px no-repeat;
-  cursor: pointer;
-  height: 28px;
-  width: 28px;
-}
-div.pp_default .pp_contract:hover {
-  background: url(images/prettyPhoto/pexeto/sprite.png) 0 -113px no-repeat;
-  cursor: pointer;
 }
 div.pp_default a.pp_expand,
 div.pp_default a.pp_contract {
@@ -5695,10 +5604,7 @@ img.wp-post-image {
 .scroll-to-top {
   z-index: 100;
 }
-.pexeto-parallax .services-box,
-.pexeto-parallax .sl-icons li {
-  opacity: 0;
-}
+
 #logo-container {
   height: auto;
   width: auto;
