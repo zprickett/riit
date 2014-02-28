@@ -1020,7 +1020,7 @@ img.aligncenter {
 }
 /* 4 columns */
 .cols-4 .col {
-  width: 22.6%;
+  width: 22.0%;
 }
 /* 3 columns */
 .cols-3 .col {
@@ -5616,7 +5616,7 @@ img.wp-post-image {
   width: auto;
 }
 #logo-container img {
-  width: 133px;
+  width: 300px;
 }
 /* Sticky menu */
 .fixed-header #header {
