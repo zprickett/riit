@@ -9,6 +9,7 @@
 
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" media="all">
 <link rel="stylesheet" href="../static/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../static/css/font-awesome/css/font-awesome.min.css">
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
@@ -32,20 +33,20 @@
 		<div id="header">
 			<div class="section-boxed section-header">
 				<div id="logo-container">
-					<a href="http://riit.com.au"><img src="http://riit.com.au/wp-content/uploads/2013/07/LogoMedSmal_Gr_foot.png"></a>
+					<a href="http://riit.com.au"><img src="../static/images/FnLogoLrg_WithWord.png"></a>
 				</div>		
 		        <div class="mobile-nav">
-					<span class="mob-nav-btn">Menu</span>
+					<span class="mob-nav-btn"><a href="#register" class="button" style="color:#fff;padding: 5px 10px;margin-top: -3px;">Register</a></span>
 				</div>
 		 		<div id="navigation-container">
 					<div id="menu-container">
 			        	<div id="menu">
 							<ul id="menu-custom-menu" class="menu">
-								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#problems">Problem Statement</a></li>
-								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#prizes">Prizes</a></li>
-								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#sponsors">Sponsors</a></li>
+								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#problems">Challenges</a></li>
+								<!-- <li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#prizes">Prizes</a></li> -->
 								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#event_details">Event Details</a></li>
-								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#register">Register</a></li>
+								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#sponsors">Sponsors</a></li>
+								<li id="" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#register" class="button" style="color:#fff;padding: 5px 10px;margin-top: -3px;">Register</a></li>
 							</ul>					
 						</div>
 			        </div> 
@@ -68,21 +69,27 @@
 				<div class="custom-page-content">
 
 					<!-- Start of Highlight Event Section -->
-					<div id="highlight" class="section-full-width section-light" style="background-color:#1d242c;">
-						<div style="background-image:url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/08/skyline_white.png); opacity:0.1; filter: alpha(opacity=10);" class="full-bg-image">
+					<div id="highlight" class="section-full-width section-dark" style="background-color:#ddd;">
+						<div style="background-image:url(../static/images/truck_dark.jpg); opacity:1.0" class="full-bg-image">
 						</div>
 						<div class="section-boxed" style="color:#899aa9;">
-							<h2 class="section-title" style="color:#ffffff;">Unearthed Event</h2>
+							<h2 class="section-title" style="color:#ffffff;"></h2>
+							<div class="logo-hero">
+								
+								<img src="../static/images/Logo_AltColour.png">
+							</div>
 						<p>&nbsp;</p>
 							<div class="cols-wrapper cols-3">
-								<div class="col">
-									<img class="img-frame " alt="" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/08/car1.png" width="1917" height="875">
-								</div>
+								
 								<div class="col col2">
 									<h1><strong>Driving Innovation in the Mining Sector</strong></h1>
-									<p><strong>Unearthed</strong> is a unique 54-hour long event focused on the mining sector. Software developers, designers, and industry insiders will come together to develop prototype solutions to mining sector problems. <strong>Unerarthed</strong> participants will have a chance to work on proprietary industry data as well as data from our government partners.</p>
+									<p style="color:#fff"><strong>Unearthed</strong> is a unique 54-hour long event focused on the mining sector. Software developers, designers, and industry insiders will come together to develop prototype solutions to mining sector problems. <strong>Unerarthed</strong> participants will have a chance to work on proprietary industry data as well as data from our government partners.</p>
 									<p>&nbsp;</p>
-									<p><a class="button" style="background-color: #d75864;" href="#"><span>Register to Attend</span></a></p>
+									
+								</div>
+								<div class="col">
+									<h1 class="hide-mobile">&nbsp;</h1>
+									<p><a class="button button-large" style="background-color: #F17A1D;" href="#"><span>Register to Attend</span></a></p>
 								</div>
 							</div>
 						</div>
@@ -142,7 +149,7 @@
 							<h1 class="page-heading" style="color:#444444;text-align:center;font-size: 32px;">Why innovation in mining?</h1>
 							<div class="testimonial-container">
 								<div class="testimonial-info">
-									<img class="img-frame testimonial-img animated-element" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/photodune-3473199-smiling-group-m2-150x150.jpg" alt="" style="opacity: 1; top: 0px; position: relative;">
+									<img class="img-frame testimonial-img animated-element" src="../static/images/DavidPeever.jpg" alt="" style="opacity: 1; top: 0px; position: relative;">
 									<div class="testimonials-details animated-element" style="opacity: 1; top: 0px; position: relative;">
 										<h2>David Peever</h2>
 										<span>Managing Director / Rio Tinto Australia / 18 September 2012</span>
@@ -159,8 +166,8 @@
 
 					<!-- Start of Prize Section -->
 						
-					<div id="prizes" class="section-full-width" style="background-color:#4abad6;">
-						<div style="background-image: url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/08/Clouds-01.jpg); opacity: 0.3; top: -18.599999999999998%;" class="full-bg-image"></div>
+					<!-- <div id="prizes" class="section-full-width parallax-fixed" style="background-color:#4abad6;">
+						<div style="background-image: url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/08/Clouds-01.jpg); opacity: 0.3; top: 0%;" class="full-bg-image"></div>
 						<div class="section-boxed" style="color:#3a6d7a;">
 							<h2 class="section-title" style="color:#ffffff;">Prizes</h2>
 							<h4 style="color:#ffffff;" class="sub-title">Awesome variety of prizes</h4>
@@ -204,34 +211,10 @@
 							</div>
 						</div>
 					</div>
-					
+					 -->
 					<!-- End of Prize Section -->
 
-					<!-- Start of Sponsorship Section -->
 
-					<div id="sponsors" class="section-full-width" style="background-color:#ffffff;">
-						<div class="section-boxed" style="color:#82acbd;">
-							<h2 style="color:#4d4d4d;" class="section-title">Amazing Sponsors and Supporters</h2>
-							<h4 style="color:#4d4d4d;" class="sub-title">Thank you! <strong>Unearthed</strong> is possible due to the help of these fantastic organisations:</h4>
-							<p>&nbsp;</p>
-							<div class="cols-wrapper cols-4">
-								<div class="col">
-									<p><a href="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo11.png"><img class="alignnone size-medium wp-image-853" alt="logo1" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo11-300x224.png"></a></p>
-								</div>
-								<div class="col">
-									<p><a href="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo21.png"><img class="alignnone size-medium wp-image-855" alt="logo2" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo21-300x224.png"></a></p>
-								</div>
-								<div class="col">
-									<p><a href="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo31.png"><img class="alignnone size-medium wp-image-857" alt="logo3" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo31-300x225.png"></a></p>
-								</div>
-								<div class="col nomargin">
-									<a href="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo51.png"><img class="alignnone size-medium wp-image-864" alt="logo5" src="http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/logo51-300x224.png"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- End of Sponsorship Section -->
 
 					<!-- Start of Event Host -->
 
@@ -242,61 +225,57 @@
 
 					<!-- Start of Event Details Section -->
 
-					<div id="event_details" class="section-full-width" style="background-color:#53686e;">
-						<div style="" class="full-bg-image"></div>
-						<div class="section-boxed" style="color:#ebedd1;">
-							<h2 class="section-title" style="color:#ff6600;">Event Details</h2>
-							<p></p>
+					<div id="event_details" class="section-full-width">
+						<!-- <div style="background-image:url(../static/images/map-image.PNG); opacity:1; filter: alpha(opacity=100);" class="full-bg-image"></div> -->
+						<div class="section-boxed" style="color:#4d4d4d;">
+							<h2 class="section-title" >Event Details </h2>
+							<h4 class="sub-title">Spacecubed, the home of innovation in Perth's CBD</h4>
 
-							<div class="services-wrapper cols-wrapper cols-3 services-list">
-								<div class="sl-wrapper">
-									<div class="col">
-										<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Spacecubed+Perth&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=58.555544,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;iwloc=A&amp;ll=-31.955675,115.859052&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
-									</div>
-									<div class="col services-description">
-										<div class="sl-description">May 2 - 4, Spacecubed, Perth
+						<div class="services-wrapper cols-wrapper cols-2 services-list">
+							<div class="sl-wrapper">
+								<div class="col">
+									<a href="http://www.spacecubed.com"><img src="../static/images/space_map_c.bmp" style ="-webkit-border-radius: 12%;-moz-border-radius: 12%;border-radius: 12%;"></a>
+								</div>
+								<div class="col sl-icons">
+									<ul>
+										<li style="margin-top:0">
+											<a href="#">
+											<span class="sl-icon"><i class="fa fa-calendar fa-2x"></i></span>
+										</a>
+										<div class="sl-content">
+											<a href="#">
+												<h3 class="sl-title">May 2 - 4, 2014</h3>
+											</a>
+											<p><strong>Unearthed</strong> kicks off on Friday evening with an opening presentation, an introduction to the data and challenges, and drinks! Teams are hard at work well into the night on Saturday and most of Sunday. Sunday evening brings judging and the much anticipated awards ceremony.</p>
 										</div>
-									</div>
-									<div class="col sl-icons">
-										<ul>
-											<li>
-												<a href="#">
-												<span class="sl-icon" style="background-image:url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/heart-55x55.png)"></span>
+										</li>
+										<li>
+											<a href="#">
+												<span class="sl-icon">&nbsp;<i class="fa fa-map-marker fa-2x"></i></span>
 											</a>
 											<div class="sl-content">
 												<a href="#">
-													<h3 class="sl-title">May 2 - 4, 2014</h3>
+													<h3 class="sl-title">at Spacecubed</h3>
 												</a>
-												<p><strong>Unearthed</strong> kicks off on Friday evening with an opening presentation, an introduction to the data and challenges, and drinks! Teams are hard at work well into the night on Saturday and most of Sunday. Sunday evening brings judging and the much anticipated awards ceremony.</p>
+												<p><strong>Unearthed</strong> will be held at <a href="http://www.spacecubed.com/">Spacecubed</a>: Perth's premier co-working space and hub of the thriving startup community.</p>
 											</div>
-											</li>
-											<li>
+										</li>
+										<li>
+											<a href="#">
+												<span class="sl-icon"><i class="fa fa-thumbs-o-up fa-2x"></i></span>
+											</a>
+											<div class="sl-content">
 												<a href="#">
-													<span class="sl-icon" style="background-image:url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/lifebuoy-55x55.png)"></span>
+													<h3 class="sl-title">Fully Catered</h3>
 												</a>
-												<div class="sl-content">
-													<a href="#">
-														<h3 class="sl-title">at Spacecubed</h3>
-													</a>
-													<p><strong>Unearthed</strong> will be held at <a href="http://www.spacecubed.com/">Spacecubed</a>: Perth's premier co-working space and hub of the thriving startup community.</p>
-												</div>
-											</li>
-											<li>
-												<a href="#">
-													<span class="sl-icon" style="background-image:url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/tools-55x55.png)"></span>
-												</a>
-												<div class="sl-content">
-													<a href="#">
-														<h3 class="sl-title">Fully Catered</h3>
-													</a>
-													<p>Food. Drinks. Good times.</p>
-												</div>
-											</li>
-											
-										</ul>
-									</div>
+												<p>Food. Drinks. Good times.</p>
+											</div>
+										</li>
+										
+									</ul>
 								</div>
 							</div>
+						</div>
 
 						</div>
 					</div>
@@ -304,14 +283,37 @@
 					<!-- End of Event Details Section -->
 
 
+					<!-- Start of Sponsorship Section -->
+
+					<div id="sponsors" class="section-full-width">
+						<div class="section-boxed" style="color:#4d4d4d;">
+							<h2  class="section-title">Amazing Sponsors and Supporters</h2>
+							<h4  class="sub-title">Thank you! <strong>Unearthed</strong> is possible due to the help of these fantastic organisations:</h4>
+							<p>&nbsp;</p>
+							<div class="cols-wrapper cols-4">
+								<div class="col">
+									<p><a href="#"><img class="alignnone size-medium wp-image-853" alt="logo1" src="../static/images/sponsors/austmine.jpg"></a></p>
+								</div>
+								<div class="col">
+									<p><a href="#"><img class="alignnone size-medium wp-image-855" alt="logo2" src="../static/images/sponsors/CA_sm.jpg"></a></p>
+								</div>
+								<div class="col nomargin">
+									<a href="#"><img class="alignnone size-medium wp-image-864" alt="logo5" src="../static/images/sponsors/spacecubed.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- End of Sponsorship Section -->
+
 					<!-- Start of Registration Section -->
 
 					<div id="register"  class="section-full-width section-dark-bg parallax-fixed" style="background-color:#3ca4cf;">
-						<div style="background-image:url(http://pexetothemes.com/demos/mineral_wp/wp-content/uploads/2013/07/photodune-983432-new-york-city-m.jpg); opacity:1; filter: alpha(opacity=100);" class="full-bg-image"></div>
+						<div style="background-image:url(../static/images/PerthSkylineCC_2.jpg); opacity:1; filter: alpha(opacity=100);" class="full-bg-image"></div>
 						<div class="section-boxed" style="color:#ffffff;">
 							<div class="cta-circle">
 								<h4 class="cta-small-title">Let's make something awesome!</h4>
-								<h2 class="cta-title">Ready to get coding? Interested in coming along to see the action?</h2><a class="button" href="#">Sign me up!</a>
+								<h2 class="cta-title">Ready to get coding? Interested in coming along to see the event?</h2><a class="button button-large" style="background-color: #F17A1D;"  href="#">Sign me up!</a>
 							</div>
 						</div>
 					</div>
@@ -329,7 +331,7 @@
 <!-- Start of Footer -->
 
 	<div id="footer" class="center">
-		<div class="scroll-to-top" style="opacity: 1; margin-bottom: 0px;"><span></span></div>
+		<div class="scroll-to-top" style="opacity: 1; margin-bottom: 0px;"><a href="#content-container"><span></span></a></div>
 
 		<div class="footer-bottom">
 			<div class="section-boxed">
