@@ -692,6 +692,7 @@ img.alignright {
 }
 img.alignnone {
   margin: 5px 15px 15px 0;
+  padding: 10px;
   display: block;
 }
 img.alignleft {
