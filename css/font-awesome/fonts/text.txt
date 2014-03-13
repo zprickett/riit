@@ -1,0 +1,6 @@
+css/font-awesome/fonts/FontAwesome.otf
+css/font-awesome/fonts/fontawesome-webfont.eot
+css/font-awesome/fonts/fontawesome-webfont.svg
+css/font-awesome/fonts/fontawesome-webfont.ttf
+css/font-awesome/fonts/fontawesome-webfont.woff
+css/font-awesome/css/font-awesome.min.css
