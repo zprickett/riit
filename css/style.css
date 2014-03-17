@@ -893,6 +893,11 @@ img.aligncenter {
 .mob-nav-menu {
   display: none;
 }
+.nav-reg-button{
+  color:#fff !important;
+  padding: 5px 10px !important;
+  margin-top: -3px;
+}
 /*----------------------------- END Navigation Menu --------------------------------*/
 /*-------------------- 3.4 Basic Structure And Containers -------------------------- */
 .center {
@@ -919,7 +924,7 @@ img.aligncenter {
 
 #logo-container {
   float: left;
-  margin: 0 3.06%;
+  margin: 0;
   margin-left: 0;
 }
 #logo-container a {
